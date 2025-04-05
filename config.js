@@ -49,7 +49,7 @@ global.adios = fs.readFileSync('./media/adios.jpg')
 global.catalogo = fs.readFileSync('./media/catalogo.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
-global.repobot = 'https://github.com/WillZek/CrowBot-ST'
+global.repobot = 'https://github.com/AdrianDH7/Adribot-ST'
 global.grupo = 'https://chat.whatsapp.com/B7POPrlJiZf7UWHJKvzVkx'
 global.gteam = 'https://chat.whatsapp.com/EpkR7XS0hrMDYk89yw57HZ'
 global.gsupport = 'https://chat.whatsapp.com/K5GLB5CXp3iAl4XsDzav1W'
