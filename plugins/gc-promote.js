@@ -9,7 +9,7 @@ var number = text
 }
 
 if (!text && !m.quoted) return conn.reply(m.chat, `[🌠] *Responda a un participante del grupo para asignarle admin.*`, m, rcanal)
-if (number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `✨️ *Debe de responder o mensionar a una persona para usar este comando.*`, m, fake)
+if (number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `✨️ *Debe de responder o mencionar a una persona para usar este comando.*`, m, fake)
 
 try {
 if (text) {
@@ -22,7 +22,7 @@ var user = number + '@s.whatsapp.net'
 } catch (e) {
 } finally {
 conn.groupParticipantsUpdate(m.chat, [user], 'promote')
-conn.reply(m.chat, `✅ *Fue agregado como admin del grupo con exito.*`, m, fake)
+conn.reply(m.chat, `✅ *El nuevo se la chupo a Adri y ya es administrador.*`, m, fake)
 }
 
 }
