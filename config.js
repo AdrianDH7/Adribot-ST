@@ -10,8 +10,8 @@ import moment from 'moment-timezone'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 // Staff De Adribot 
 global.owner = [
-   ['525646069199', 'Creador Adri🔱', true],
-   ['525646069199', 'Adribot Soporte', true],
+   ['5215646069199', 'Creador Adri🔱', true],
+   ['5215646069199', 'Adribot Soporte', true],
   
 ]
 
