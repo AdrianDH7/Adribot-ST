@@ -13,7 +13,7 @@ buffer = Buffer.concat([buffer, chunk])}
 if (/video/.test(type)) {
 return this.sendFile(m.chat, buffer, 'error.mp4', `${msg[type].caption}` + 'Ey El Antiver Está Activo, No Ocultes Nada 🍫', m)
 } else if (/image/.test(type)) {
-return this.sendFile(m.chat, buffer, 'error.jpg', `${msg[type].caption}` + 'No Ocultes Nada ✅', m)
+return this.sendFile(m.chat, buffer, 'error.jpg', `${msg[type].caption}` + 'Pendeje yo veo todo y ahora todos lo haremos ✅', m)
 }}}
 
 function formatFileSize(bytes) {
