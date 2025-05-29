@@ -31,7 +31,7 @@
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
-"@whiskeysockets/baileys": "github:nstar-y/bail",
+"@whiskeysockets/baileys": "github:GataNina-Li/Baileys",
 "node-cache": "^5.1.2",
 "google-libphonenumber": "latest",
 "@adiwajshing/keyed-db": "^0.2.4",
