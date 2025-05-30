@@ -34,9 +34,6 @@
   
 
 "homepage": "https://github.com/GataNina-Li/GataBot-MD",
-"author": {
-"name": "GataNina-Li" },
-    
 "repository": {
 "node-cache": "^5.1.2",
 "google-libphonenumber": "latest",
