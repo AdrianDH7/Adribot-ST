@@ -33,7 +33,7 @@
 "dependencies": {
   
 
-"homepage": "https://github.com/GataNina-Li/GataBot-MD",
+"@whiskeysockets/baileys": "github:ds6/bails",
 "repository": {
 "node-cache": "^5.1.2",
 "google-libphonenumber": "latest",
