@@ -32,7 +32,12 @@
 "license": "GPL-3.0-or-later",
 "dependencies": {
   
-"@whiskeysockets/baileys": "GataNina-Li/Baileys",
+
+"homepage": "https://github.com/GataNina-Li/GataBot-MD",
+"author": {
+"name": "GataNina-Li" },
+    
+"repository": {
 "node-cache": "^5.1.2",
 "google-libphonenumber": "latest",
 "@adiwajshing/keyed-db": "^0.2.4",
