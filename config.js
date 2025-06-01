@@ -16,7 +16,6 @@ global.owner = [
 ]
 
 global.creadorbot = [
-   ['50557865603', 'WillZek', true],
    ['5215646069199', 'Adri', true],
 ]
   
@@ -56,7 +55,7 @@ global.gteam = 'https://chat.whatsapp.com/EpkR7XS0hrMDYk89yw57HZ'
 global.gsupport = 'https://chat.whatsapp.com/K5GLB5CXp3iAl4XsDzav1W'
 global.comu = 'https://chat.whatsapp.com/Bgfb6Ag13BDCvwzOtldlCm'
 global.channel = 'https://whatsapp.com/channel/0029Vb1uR5LJ3jutXxfu8T2w'
-global.insta = 'https://www.instagram.com/crowbot-wa'
+global.insta = 'https://www.instagram.com/adrian___dh07?igsh=bHp2OHNuM3dudzl4'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "543876577197-120363317332020195@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '👑【✫𝚃𝙴𝙰𝙼  乂 𝚂𝚃𝙰𝚁𝙲𝙾𝚁𝙴✫】🎩', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
