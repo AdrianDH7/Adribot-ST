@@ -55,7 +55,7 @@ setTimeout(resolve, 1000)
 }
 let timestamp = speed()
 let latensi = speed() - timestamp
-let crow = `╭─✪「 *Info De CrowBot* 」✪\n`
+let crow = `╭─✪「 *Info De AdriBot* 」✪\n`
 crow += `│ 👑 *Creador* : @${owner[0][0].split('@s.whatsapp.net')[0]}\n`
 crow += `│ 🍭 *Prefijo* : [  ${usedPrefix}  ]\n`
 crow += `│ 🍫 *Tipo De Bot:* ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Sub-Bot 🅢')}\n`
