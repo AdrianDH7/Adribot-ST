@@ -23,7 +23,7 @@ let tags = {
   'logos': '「EDICION LOGOS」🍨', 
 }
 
-const vid = 'https://cdn-moonforce.vercel.app/images/6yrfu9_WhatsApp Image 2025-05-21 at 14.05.21.jpeg';
+const vid = 'https://www.kapwing.com/videos/683d075e7682af689ea410a5';
 
 const defaultMenu = {
   before: `*•:•:•:•:•:•:•:•:•:•☾☼☽•:•.•:•.•:•:•:•:•:•*
