@@ -5,11 +5,11 @@ let staff = `🚩 *EQUIPO DE AYUDANTES*
 
 •
 🎩 *Propietario del bot:* 
-💛 *Número:* Wa.me/2731590195
+💛 *Número:* 
 
 • 
-🍭 *Rol* Developer
-💛 *Numero:* +505 5786 5603
+🍭 *Rol:* Developer
+💛 *Número:* 
 
 • 
 🎩 *Rol:* Developer
@@ -19,17 +19,16 @@ let staff = `🚩 *EQUIPO DE AYUDANTES*
 🍭 *Rol:* Mod
 💛 *Número:* 
 
-
 • 
 🍭 *Rol:* Mod
-💛 *Numero:*
+💛 *Número:*
 
 • 
 🎩 *Rol:* Mod
 💛 *Número:*
 
 • 
-🍭 *Rol:*  Developer
+🍭 *Rol:* Developer
 💛 *Número:*
 
 •
@@ -38,27 +37,40 @@ let staff = `🚩 *EQUIPO DE AYUDANTES*
 
 • 
 🍭 *Rol:* Mod
-💛 *Numero:*`
-await conn.sendFile(m.chat, 'https://raw.githubusercontent.com/WillZek/Storage-CB/main/images/21396e078a24.jpg', 'brook.jpg', staff.trim(), fkontak, true, {
-contextInfo: {
-'forwardingScore': 200,
-'isForwarded': false,
-externalAdReply: {
-showAdAttribution: true,
-renderLargerThumbnail: false,
-title: `🎩 STAFF OFICIAL🌟`,
-body: dev,
-mediaType: 1,
-sourceUrl: redes,
-thumbnailUrl: icono }}
-}, { mentions: m.sender })
-m.react(emoji)
+💛 *Número:*`;
 
-}
-handler.help = ['staff']
-handler.command = ['colaboradores', 'staff']
-handler.register = true
-handler.tags = ['main', 'crow']
+  await conn.sendFile(
+    m.chat,
+    'https://raw.githubusercontent.com/WillZek/Storage-CB/main/images/21396e078a24.jpg',
+    'brook.jpg',
+    staff.trim(),
+    fkontak,
+    true,
+    {
+      contextInfo: {
+        forwardingScore: 200,
+        isForwarded: false,
+        externalAdReply: {
+          showAdAttribution: true,
+          renderLargerThumbnail: false,
+          title: `🎩 STAFF OFICIAL🌟`,
+          body: dev,
+          mediaType: 1,
+          sourceUrl: redes,
+          thumbnailUrl: icono
+        }
+      }
+    },
+    { mentions: [m.sender] }
+  );
+
+  m.react(emoji);
+};
+
+handler.help = ['staff'];
+handler.command = ['colaboradores', 'staff'];
+handler.register = true;
+handler.tags = ['main', 'crow'];
 handler.estrellas = 1;
 
-export default handler
+export default handler;
