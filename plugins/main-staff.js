@@ -1,76 +1,33 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
-let staff = `🚩 *EQUIPO DE AYUDANTES*
-🤖 *Bot:* ${global.botname}
-🪐 *Versión:* ${global.vs}
+let img = 'https://raw.githubusercontent.com/WillZek/Storage-CB/main/images/21396e078a24.jpg''
+let staff = `ᥫ᭡ *EQUIPO DE AYUDANTES* ❀
+✦ *Bot:* ${botname}
 
-•
-🎩 *Propietario del bot:* 
-💛 *Número:* 
+❍ *Creador:*
 
-• 
-🍭 *Rol:* Developer
-💛 *Número:* 
+> 🜸 Rol » *Creador*
+> ✧
 
-• 
-🎩 *Rol:* Developer
-💛 *Número:*
+❒ *Colaboradores:*
 
-• 
-🍭 *Rol:* Mod
-💛 *Número:* 
+> 🜸 Rol » *Developer*
+> ✧
 
-• 
-🍭 *Rol:* Mod
-💛 *Número:*
+> 🜸 Rol » *Developer*
+> ✧
 
-• 
-🎩 *Rol:* Mod
-💛 *Número:*
+> 🜸 Rol » *Developer*
+> ✧ 
 
-• 
-🍭 *Rol:* Developer
-💛 *Número:*
+> 🜸 Rol »
+> ✧
+`
+await conn.sendFile(m.chat, img, staff.trim(), fkontak)
+}
+  
+handler.help = ['staff']
+handler.command = ['colaboradores', 'staff']
+handler.register = true
+handler.tags = ['main']
 
-•
-🎩 *Rol:* Mod
-💛 *Número:*
-
-• 
-🍭 *Rol:* Mod
-💛 *Número:*`;
-
-  await conn.sendFile(
-    m.chat,
-    'https://raw.githubusercontent.com/WillZek/Storage-CB/main/images/21396e078a24.jpg',
-    'brook.jpg',
-    staff.trim(),
-    fkontak,
-    true,
-    {
-      contextInfo: {
-        forwardingScore: 200,
-        isForwarded: false,
-        externalAdReply: {
-          showAdAttribution: true,
-          renderLargerThumbnail: false,
-          title: `🎩 STAFF OFICIAL🌟`,
-          body: dev,
-          mediaType: 1,
-          sourceUrl: redes,
-          thumbnailUrl: icono
-        }
-      }
-    },
-    { mentions: [m.sender] }
-  );
-
-  m.react(emoji);
-};
-
-handler.help = ['staff'];
-handler.command = ['colaboradores', 'staff'];
-handler.register = true;
-handler.tags = ['main', 'crow'];
-handler.estrellas = 1;
-
-export default handler;
+export default handler
