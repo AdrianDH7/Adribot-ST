@@ -3,11 +3,43 @@ let staff = `🚩 *EQUIPO DE AYUDANTES*
 🤖 *Bot:* ${global.botname}
 🪐 *Versión:* ${global.vs}
 
-• ADRIDH
-🎩 *Rol:* CREADOR
-💛 *Número:* Wa.me/5215646069199
+•
+🎩 *Propietario del bot:* 
+💛 *Número:* Wa.me/525646069199
 
-await conn.sendFile(m.chat, 'https://files.catbox.moe/h094yg.jpg', 'brook.jpg', staff.trim(), fkontak, true, {
+• 
+🍭 *Rol* Developer
+💛 *Numero:* 
+
+• 
+🎩 *Rol:* Developer
+💛 *Número:*
+
+• 
+🍭 *Rol:* Mod
+💛 *Número:* 
+
+
+• 
+🍭 *Rol:* Mod
+💛 *Numero:*
+
+• 
+🎩 *Rol:* Mod
+💛 *Número:*
+
+• 
+🍭 *Rol:*  Developer
+💛 *Número:*
+
+•
+🎩 *Rol:* Mod
+💛 *Número:*
+
+• 
+🍭 *Rol:* Mod
+💛 *Numero:*`
+await conn.sendFile(m.chat, 'https://raw.githubusercontent.com/WillZek/Storage-CB/main/images/21396e078a24.jpg', 'brook.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
@@ -18,7 +50,7 @@ title: `🎩 STAFF OFICIAL🌟`,
 body: dev,
 mediaType: 1,
 sourceUrl: redes,
-thumbnailUrl: icons }}
+thumbnailUrl: icono }}
 }, { mentions: m.sender })
 m.react(emoji)
 
